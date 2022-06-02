@@ -11,6 +11,7 @@ import datetime
 
 from mcstatus import JavaServer
 TOKEN = os.getenv("BOT_TOKEN")
+USERNAME = os.getenv("BOT_USERNAME")
 bot = Bot(token=TOKEN, parse_mode="HTML")
 dp = Dispatcher(bot)
 
@@ -99,7 +100,7 @@ async def flood_wait_retry_after(update: types.Update, exception: exceptions.Ret
     await asyncio.sleep(exception.timeout)
     return True
 
-@dp.message_handler(text=["@dreammita_msg_bot"])
+@dp.message_handler(text=[f"{USERNAME}"])
 async def sneppi(message: types.Message):  
     await return_message(message, sticker="CAACAgIAAxkBAAEKmttg276yQK1rvsQSBM80_Eyc0gt2DAACCQADci8wB6PyDmoZHBAlIAQ")
 
