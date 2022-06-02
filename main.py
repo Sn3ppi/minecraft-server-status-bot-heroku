@@ -109,7 +109,8 @@ async def serverHelp(message):
 ℹ️ Бот для отслеживания онлайна на сервере @dreammita.
 ℹ️ Мои команды:
 /start, /help - открыть это меню
-/status - проверить онлайн"""
+/status - проверить онлайн
+ℹ️ Код: https://github.com/Sn3ppi/dreammita-status-bot"""
     await return_message(message, help)
 
 @dp.message_handler(commands=['status'])
