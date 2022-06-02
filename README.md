@@ -9,6 +9,8 @@ Before deploying it to Heroku create your app there and create environment vars 
 
 BOT_TOKEN - your Telegram bot token got by https://t.me/BotFather
 
+BOT_USERNAME - your Telegram bot @username
+
 HEROKU_APP_NAME - name of your Heroku app
 
 IPADDR - your Minecraft server (ip:port)
