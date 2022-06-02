@@ -1,6 +1,9 @@
 <b>Description:</b>
 
 This bot was created for getting status of Dreammita server. See https://t.me/dreammita.
+
+<b>Deploy to Heroku:</b>
+
 This version of bot is intended for deploying to Heroku.
 Before deploying it to Heroku create your app there and create environment vars (Settings -> Reveal Config Vars): 
 
