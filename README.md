@@ -17,6 +17,8 @@ HEROKU_APP_NAME - name of your Heroku app
 
 IPADDR - your Minecraft server (ip:port)
 
+Connect your web-app to https://uptimerobot.com/
+
 <b>Bot commands:</b>
 
 /help, /start - opens help menu
