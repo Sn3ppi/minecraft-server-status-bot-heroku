@@ -2,7 +2,7 @@
 
 <b>Description:</b>
 
-This bot was created for getting status of <a href="https://t.me/dreammita">Dreammita Server</a>.
+This bot was created for getting status of Minecraft Server.
 
 <b>Deploy to Heroku:</b>
 
@@ -24,5 +24,3 @@ Connect your web-app to <a href="https://uptimerobot.com/">UptimeRobot</a>
 /help, /start - opens help menu
 
 /status - shows current status (online/offline), IP, MOTD (description), current online, max online and version of Minecraft server and shows last update of this information
-
-![Image Alt](https://github.com/Sn3ppi/dreammita-status-bot/raw/main/server_info.png)
